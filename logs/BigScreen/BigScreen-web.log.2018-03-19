@@ -1,0 +1,96 @@
+2018-03-19 11:09:33,984 WARN 73544 [-/127.0.0.1/-/15ms POST /update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-03-19 11:09:33,985 WARN 73544 [-/127.0.0.1/-/16ms POST /update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa@2.5.0@koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at session (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-session@5.8.1@koa-session/index.js:41:13)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 73544
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:12:21,224 WARN 73609 [-/127.0.0.1/-/12ms POST /update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-03-19 11:12:21,225 WARN 73609 [-/127.0.0.1/-/13ms POST /update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa@2.5.0@koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at session (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-session@5.8.1@koa-session/index.js:41:13)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 73609
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:14:00,135 WARN 73650 [-/127.0.0.1/-/14ms POST /update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-03-19 11:14:00,136 WARN 73650 [-/127.0.0.1/-/15ms POST /update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa@2.5.0@koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at session (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-session@5.8.1@koa-session/index.js:41:13)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 73650
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:19:50,225 WARN 73688 [-/127.0.0.1/-/12ms POST /update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-03-19 11:19:50,226 WARN 73688 [-/127.0.0.1/-/13ms POST /update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa@2.5.0@koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at session (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-session@5.8.1@koa-session/index.js:41:13)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 73688
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:37:08,499 WARN 73742 [-/127.0.0.1/-/14ms POST /update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-03-19 11:37:08,501 WARN 73742 [-/127.0.0.1/-/15ms POST /update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa@2.5.0@koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at session (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-session@5.8.1@koa-session/index.js:41:13)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 73742
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:37:47,179 WARN 73742 [-/127.0.0.1/-/1ms POST /update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-03-19 11:37:47,180 WARN 73742 [-/127.0.0.1/-/2ms POST /update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa@2.5.0@koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-security@2.1.0@egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at session (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-session@5.8.1@koa-session/index.js:41:13)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 73742
+hostname: moondeMacBook-Pro.local
+

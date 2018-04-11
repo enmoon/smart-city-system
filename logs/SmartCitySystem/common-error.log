@@ -1,0 +1,303 @@
+2018-03-28 00:28:42,376 ERROR 2438 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-28 00:28:42,377 ERROR 2438 [-/undefined/-/46754ms GET /public/video/water.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 2438
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 00:28:42,377 ERROR 2438 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-28 00:28:42,378 ERROR 2438 [-/undefined/-/45046ms GET /public/video/fire.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 2438
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 00:30:15,498 ERROR 2437 nodejs.ClusterClientNoResponseError: client no response in 62932ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 2437
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 00:30:28,727 ERROR 2438 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-28 00:30:28,728 ERROR 2438 [-/undefined/-/14793ms GET /public/video/home.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 2438
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:31:00,144 ERROR 9997 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-28 19:31:00,145 ERROR 9997 [-/undefined/-/2239ms GET /public/video/water.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:31:31,516 ERROR 9997 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-28 19:31:31,517 ERROR 9997 [-/undefined/-/33610ms GET /public/video/fire.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:31:37,549 ERROR 9997 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-28 19:31:37,551 ERROR 9997 [-/undefined/-/15761ms GET /public/video/home.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:31:46,519 ERROR 9997 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-28 19:31:46,519 ERROR 9997 [-/undefined/-/45653ms GET /public/video/water.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:32:37,647 ERROR 9997 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-28 19:32:37,648 ERROR 9997 [-/undefined/-/18358ms GET /public/video/home.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:32:37,648 ERROR 9997 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-28 19:32:37,649 ERROR 9997 [-/undefined/-/2734ms GET /public/video/water.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 19:32:37,649 ERROR 9997 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-28 19:32:37,649 ERROR 9997 [-/undefined/-/18494ms GET /public/video/fire.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 9997
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 20:05:26,201 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 929773ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 20:21:48,454 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 962245ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 20:44:19,645 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 1331178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 21:16:59,904 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 1940248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 21:49:38,852 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 1938937ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 22:05:13,028 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 914166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-03-28 22:21:12,719 ERROR 9996 nodejs.ClusterClientNoResponseError: client no response in 939687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_cluster-client@2.1.0@cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 9996
+hostname: moondeMacBook-Pro.local
+
+2018-04-11 09:26:39,060 ERROR 33203 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-11 09:26:39,062 ERROR 33203 [-/undefined/-/2019ms GET /public/video/water.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 33203
+hostname: moondeMacBook-Pro.local
+
+2018-04-11 09:31:07,866 ERROR 33411 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-11 09:31:07,868 ERROR 33411 [-/undefined/-/861ms GET /public/video/water.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 33411
+hostname: moondeMacBook-Pro.local
+
+2018-04-11 09:31:14,762 ERROR 33411 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-11 09:31:14,763 ERROR 33411 [-/undefined/-/6529ms GET /public/video/water.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 33411
+hostname: moondeMacBook-Pro.local
+
+2018-04-11 09:31:17,559 ERROR 33411 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-11 09:31:17,559 ERROR 33411 [-/undefined/-/11821ms GET /public/video/home.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 33411
+hostname: moondeMacBook-Pro.local
+
+2018-04-11 09:31:21,556 ERROR 33411 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-11 09:31:21,557 ERROR 33411 [-/undefined/-/1221ms GET /public/video/water.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg@2.5.0@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 33411
+hostname: moondeMacBook-Pro.local
+

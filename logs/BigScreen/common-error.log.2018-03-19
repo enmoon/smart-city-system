@@ -1,0 +1,1789 @@
+2018-03-19 11:11:35,333 ERROR 73579 [-/127.0.0.1/-/8ms GET /proxyPage] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 73579
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:11:50,032 ERROR 73591 [-/127.0.0.1/-/9ms GET /proxyPage] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 73591
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:11:50,883 ERROR 73593 [-/127.0.0.1/-/8ms GET /proxyPage] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-view@2.1.0@egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 73593
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:38:31,559 ERROR 73750 [-/127.0.0.1/-/13ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73750
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:49:30,162 ERROR 73840 [-/127.0.0.1/-/20ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73840
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:50:26,066 ERROR 73840 [-/127.0.0.1/-/2ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73840
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:50:26,865 ERROR 73840 [-/127.0.0.1/-/1ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73840
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:50:36,662 ERROR 73847 [-/127.0.0.1/-/13ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73847
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:50:53,470 ERROR 73865 [-/127.0.0.1/-/13ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73865
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:51:08,460 ERROR 73871 [-/127.0.0.1/-/16ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73871
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:51:31,174 ERROR 73878 [-/127.0.0.1/-/17ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73878
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:51:47,628 ERROR 73884 [-/127.0.0.1/-/15ms POST /update] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:46)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73884
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 11:52:07,609 ERROR 73896 [-/127.0.0.1/-/13ms POST /update] nodejs.ReferenceError: tthis is not defined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:21:33)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 73896
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 13:36:55,886 ERROR 74505 nodejs.TypeError: Cannot set property 'fire' of undefined
+    at State.set (/Users/moon/Documents/site/aliyun/BigScreen/app/lib/state.js:19:23)
+    at handler (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:10:26)
+    at Page.page.on.msg (/Users/moon/Documents/site/aliyun/BigScreen/app/lib/fire.js:16:21)
+    at Page.emit (events.js:180:13)
+    at Page._onConsoleAPI (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Page.js:439:10)
+    at CDPSession.Page.client.on.event (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Page.js:100:57)
+    at CDPSession.emit (events.js:180:13)
+    at CDPSession._onMessage (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Connection.js:215:12)
+    at Connection._onMessage (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Connection.js:117:19)
+    at WebSocket.emit (events.js:180:13)
+
+pid: 74505
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 13:37:08,100 ERROR 74517 nodejs.TypeError: Cannot set property 'fire' of undefined
+    at State.set (/Users/moon/Documents/site/aliyun/BigScreen/app/lib/state.js:19:23)
+    at handler (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:10:26)
+    at Page.page.on.msg (/Users/moon/Documents/site/aliyun/BigScreen/app/lib/fire.js:16:21)
+    at Page.emit (events.js:180:13)
+    at Page._onConsoleAPI (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Page.js:439:10)
+    at CDPSession.Page.client.on.event (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Page.js:100:57)
+    at CDPSession.emit (events.js:180:13)
+    at CDPSession._onMessage (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Connection.js:215:12)
+    at Connection._onMessage (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.1.1@puppeteer/lib/Connection.js:117:19)
+    at WebSocket.emit (events.js:180:13)
+
+pid: 74517
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 14:18:09,333 ERROR 79655 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:56:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 79655
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 14:54:41,026 ERROR 84723 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:173:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 84723
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 14:54:41,142 ERROR 84723 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:149:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 84723
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 15:37:37,610 ERROR 90335 [-/127.0.0.1/-/2ms GET /notify?type=1] nodejs.SyntaxError: Identifier 'res' has already been declared
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)
+
+pid: 90335
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 15:42:21,979 ERROR 91209 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:173:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 91209
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 15:42:22,136 ERROR 91209 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:149:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 91209
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 15:42:23,942 ERROR 91209 [-/127.0.0.1/-/1ms GET /notify?type=1] nodejs.SyntaxError: Identifier 'res' has already been declared
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)
+
+pid: 91209
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 15:46:31,767 ERROR 91896 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:228:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 91896
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 15:46:31,806 ERROR 91896 nodejs.ReferenceError: name is not defined
+    at HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:204:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 91896
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:04:06,065 ERROR 94123 nodejs.ReferenceError: name is not defined
+    at StreetLightSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94123
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:04:06,661 ERROR 94123 nodejs.ReferenceError: name is not defined
+    at BusSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94123
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:04:18,627 ERROR 94123 nodejs.ReferenceError: name is not defined
+    at StreetLightSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94123
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:04:18,714 ERROR 94123 nodejs.ReferenceError: name is not defined
+    at BusSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94123
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:05:04,936 ERROR 94300 nodejs.ReferenceError: name is not defined
+    at StreetLightSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94300
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:05:05,035 ERROR 94300 nodejs.ReferenceError: name is not defined
+    at BusSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94300
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:05:22,751 ERROR 94300 nodejs.ReferenceError: name is not defined
+    at StreetLightSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94300
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:05:22,835 ERROR 94300 nodejs.ReferenceError: name is not defined
+    at BusSystemMessageNotice.HttpClient.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94300
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:06:32,657 ERROR 94558 nodejs.ReferenceError: HttpClient is not defined
+    at Light (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:57:5)
+    at State.state.on (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:79:9)
+    at State.emit (events.js:180:13)
+    at State.set (/Users/moon/Documents/site/aliyun/BigScreen/app/lib/state.js:19:14)
+    at handler (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:96:26)
+    at Page.page.on.msg (/Users/moon/Documents/site/aliyun/BigScreen/app/lib/fire.js:16:21)
+    at Page.emit (events.js:180:13)
+    at Page._onConsoleAPI (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.2.0@puppeteer/lib/Page.js:439:10)
+    at CDPSession.Page.client.on.event (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_puppeteer@1.2.0@puppeteer/lib/Page.js:100:57)
+    at CDPSession.emit (events.js:180:13)
+
+pid: 94558
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:06:32,960 ERROR 94558 nodejs.ReferenceError: name is not defined
+    at Bus.Http.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94558
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:06:43,120 ERROR 94574 nodejs.ReferenceError: name is not defined
+    at Light.Http.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94574
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:06:43,529 ERROR 94574 nodejs.ReferenceError: name is not defined
+    at Bus.Http.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94574
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:07:46,380 ERROR 94574 nodejs.ReferenceError: name is not defined
+    at Light.Http.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94574
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:07:46,714 ERROR 94574 nodejs.ReferenceError: name is not defined
+    at Bus.Http.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:35:43)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94574
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:08:09,779 ERROR 94767 nodejs.ReferenceError: name is not defined
+    at Light.Http.then.catch.err (/Users/moon/Documents/site/aliyun/BigScreen/app/service/store.js:66:47)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 94767
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:09:01,245 ERROR 94843 [-/127.0.0.1/-/18ms POST /update] nodejs.ReferenceError: his is not defined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:49:9)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 94843
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:12:01,143 ERROR 95324 [-/127.0.0.1/-/14ms POST /update] nodejs.ReferenceError: his is not defined
+    at HomeController.update (/Users/moon/Documents/site/aliyun/BigScreen/app/controller/home.js:49:9)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg-core@4.4.1@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/moon/Documents/site/aliyun/BigScreen/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 95324
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:28:18,813 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:28:18,816 ERROR 97651 [-/undefined/-/498ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:29:34,384 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 16:29:34,384 ERROR 97651 [-/undefined/-/13933ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:29:34,769 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:29:34,770 ERROR 97651 [-/undefined/-/196ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:29:35,599 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:29:35,599 ERROR 97651 [-/undefined/-/829ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:30:40,296 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:30:40,296 ERROR 97651 [-/undefined/-/283ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:30:40,324 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:30:40,325 ERROR 97651 [-/undefined/-/27ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:30:43,457 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:30:43,457 ERROR 97651 [-/undefined/-/3113ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:31:16,678 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:31:16,679 ERROR 97651 [-/undefined/-/47ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:31:19,780 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:31:19,781 ERROR 97651 [-/undefined/-/3101ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:31:24,295 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:31:24,295 ERROR 97651 [-/undefined/-/2648ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:33:05,708 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:33:05,709 ERROR 97651 [-/undefined/-/3589ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:33:19,974 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 16:33:19,975 ERROR 97651 [-/undefined/-/12267ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:33:20,393 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:33:20,394 ERROR 97651 [-/undefined/-/192ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:33:21,277 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:33:21,277 ERROR 97651 [-/undefined/-/883ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:34:21,089 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:34:21,090 ERROR 97651 [-/undefined/-/244ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:34:21,138 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:34:21,139 ERROR 97651 [-/undefined/-/48ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:44:13,332 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:44:13,333 ERROR 97651 [-/undefined/-/3528ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:44:20,727 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 16:44:20,727 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 16:44:20,728 ERROR 97651 [-/undefined/-/5396ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:44:20,974 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 16:44:20,975 ERROR 97651 [-/undefined/-/34ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:44:54,408 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:44:54,408 ERROR 97651 [-/undefined/-/280ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:44:54,442 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:44:54,443 ERROR 97651 [-/undefined/-/34ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 16:44:57,587 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 16:44:57,587 ERROR 97651 [-/undefined/-/3144ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:12:40,438 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 17:12:40,438 ERROR 97651 [-/undefined/-/4146ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:12:40,655 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:12:40,656 ERROR 97651 [-/undefined/-/23ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:13:06,801 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:13:06,801 ERROR 97651 [-/undefined/-/25947ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:13:12,469 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:13:12,469 ERROR 97651 [-/undefined/-/5468ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:13:44,518 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:13:44,519 ERROR 97651 [-/undefined/-/261ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:13:44,546 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:13:44,547 ERROR 97651 [-/undefined/-/27ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:13:47,705 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:13:47,705 ERROR 97651 [-/undefined/-/3157ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:13:50,338 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 17:13:50,339 ERROR 97651 [-/undefined/-/766ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:14:25,518 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:14:25,519 ERROR 97651 [-/undefined/-/266ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:14:25,544 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:14:25,545 ERROR 97651 [-/undefined/-/25ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:14:28,710 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:14:28,711 ERROR 97651 [-/undefined/-/3165ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:15:03,050 ERROR 97651 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 17:15:03,050 ERROR 97651 [-/undefined/-/316ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:15:03,116 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:15:03,116 ERROR 97651 [-/undefined/-/65ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:16:11,499 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:16:11,499 ERROR 97651 [-/undefined/-/68382ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:16:15,191 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:16:15,192 ERROR 97651 [-/undefined/-/2001ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:16:30,169 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:16:30,169 ERROR 97651 [-/undefined/-/13110ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:16:30,593 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:16:30,594 ERROR 97651 [-/undefined/-/197ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:17:18,036 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:17:18,037 ERROR 97651 [-/undefined/-/266ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:17:18,064 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:17:18,065 ERROR 97651 [-/undefined/-/27ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:17:21,216 ERROR 97651 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:17:21,216 ERROR 97651 [-/undefined/-/3151ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 97651
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:19:48,608 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:19:48,610 ERROR 4131 [-/undefined/-/3666ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:20:01,096 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:20:01,097 ERROR 4131 [-/undefined/-/10488ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:20:01,487 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:20:01,487 ERROR 4131 [-/undefined/-/177ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:20:28,246 ERROR 4131 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-19 17:20:28,247 ERROR 4131 [-/undefined/-/295ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:20:28,308 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:20:28,308 ERROR 4131 [-/undefined/-/42ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:20:31,431 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:20:31,431 ERROR 4131 [-/undefined/-/3122ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:21:00,794 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:21:00,794 ERROR 4131 [-/undefined/-/227ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:26:56,303 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:26:56,303 ERROR 4131 [-/undefined/-/3527ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:28:28,839 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:28:28,839 ERROR 4131 [-/undefined/-/4088ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:28:28,873 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:28:28,874 ERROR 4131 [-/undefined/-/34ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:702:18)
+    at Socket._write (net.js:757:8)
+    at doWrite (_stream_writable.js:406:12)
+    at writeOrBuffer (_stream_writable.js:392:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+headerSent: true
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:28:32,032 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:28:32,032 ERROR 4131 [-/undefined/-/3158ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:30:28,353 ERROR 4131 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:30:28,354 ERROR 4131 [-/undefined/-/9988ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 4131
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:55:39,392 ERROR 8692 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:55:39,394 ERROR 8692 [-/undefined/-/3003ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 8692
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:55:47,053 ERROR 8692 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:55:47,053 ERROR 8692 [-/undefined/-/4165ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 8692
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:56:18,839 ERROR 8692 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:56:18,840 ERROR 8692 [-/undefined/-/5018ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 8692
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:56:23,845 ERROR 8692 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:56:23,845 ERROR 8692 [-/undefined/-/5004ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 8692
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 17:56:29,977 ERROR 8692 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 17:56:29,978 ERROR 8692 [-/undefined/-/2819ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 8692
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 18:08:18,404 ERROR 10621 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-19 18:08:18,406 ERROR 10621 [-/undefined/-/2676ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10621
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 21:01:10,641 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 130624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 21:09:39,647 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 400356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 21:37:22,577 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 1622918ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 22:08:15,802 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 1833215ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-19 22:31:11,700 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 1355889ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 02:17:19,794 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 10807789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 04:17:31,915 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 7212020ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 04:25:03,780 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 451761ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 04:40:44,487 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 920692ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 06:40:55,304 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 7210790ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 08:41:08,231 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 7212874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 09:33:16,222 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 3127949ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 09:41:31,980 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 352032ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 09:44:02,342 ERROR 10514 nodejs.ClusterClientNoResponseError: client no response in 110355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_cluster-client@1.7.1@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 10514
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 10:06:09,220 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 10:06:09,223 ERROR 10956 [-/undefined/-/11137ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:10,698 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 11:53:10,699 ERROR 10956 [-/undefined/-/266ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:10,782 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 11:53:10,783 ERROR 10956 [-/undefined/-/342ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:10,986 ERROR 10956 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-20 11:53:10,986 ERROR 10956 [-/undefined/-/545ms GET /public/%E9%A6%96%E9%A1%B5%E4%BA%8C%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:11,011 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 11:53:11,012 ERROR 10956 [-/undefined/-/24ms GET /public/%E9%A6%96%E9%A1%B5%E4%BA%8C%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:15,417 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 11:53:15,418 ERROR 10956 [-/undefined/-/4718ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:15,418 ERROR 10956 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-20 11:53:15,418 ERROR 10956 [-/undefined/-/4635ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:53:15,418 ERROR 10956 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-20 11:53:15,418 ERROR 10956 [-/undefined/-/4406ms GET /public/%E9%A6%96%E9%A1%B5%E4%BA%8C%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:54:01,902 ERROR 10956 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-20 11:54:01,903 ERROR 10956 [-/undefined/-/33189ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:54:02,275 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 11:54:02,276 ERROR 10956 [-/undefined/-/191ms GET /public/%E7%BB%BF%E5%8C%96%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:54:02,306 ERROR 10956 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-20 11:54:02,306 ERROR 10956 [-/undefined/-/218ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:54:02,491 ERROR 10956 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-03-20 11:54:02,493 ERROR 10956 [-/undefined/-/403ms GET /public/%E9%A6%96%E9%A1%B5%E4%BA%8C%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.EPIPEError: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:353:12)
+    at Socket.Writable.end (_stream_writable.js:572:10)
+    at Socket.end (net.js:482:31)
+    at Application.onClientError (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:85:12)
+    at Server.server.on (/Users/moon/Documents/site/aliyun/BigScreen/node_modules/_egg@2.4.1@egg/lib/application.js:103:52)
+    at Server.emit (events.js:180:13)
+    at Socket.socketOnError (_http_server.js:490:20)
+    at Socket.emit (events.js:185:15)
+    at onwriteError (_stream_writable.js:427:12)
+    at onwrite (_stream_writable.js:449:5)
+code: 'EPIPE'
+headerSent: true
+name: 'EPIPEError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+
+2018-03-20 11:54:47,884 ERROR 10956 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-20 11:54:47,884 ERROR 10956 [-/undefined/-/19254ms GET /public/%E9%A6%96%E9%A1%B5%E4%B8%80%E6%95%88%E6%9E%9C%E8%A7%86%E9%A2%91.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onread (net.js:599:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 10956
+hostname: moondeMacBook-Pro.local
+

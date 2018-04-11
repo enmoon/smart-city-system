@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Set</title>
+    <link rel="stylesheet" type="text/css" href="public/css/nouislider.min.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/button.css" />
+    <script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="public/js/nouislider.min.js"></script>
+    <style type="text/css">
+        body {
+            padding: 5%;
+            background: #9e54bd;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .slider {
+            position: absolute;
+            height: 500px;
+            top: 10%;
+            right: 10%;
+
+        }
+
+        /* .video {
+            margin: 15% 18%;
+        } */
+
+        .noUi-handle {
+            cursor: pointer;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .noUi-connect,
+        .noUi-connects {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="controller">
+        <div class="center">
+            <div>
+                <button name="fire" value="true" class="btn btn-1 btn-1b">火情上报</button>
+                <!-- <button name="water" value="true" class="btn btn-1 btn-1d">水情上报</button> -->
+                <button name="rest" value="true" class="btn btn-1 btn-1a">回到首屏</button>
+            </div>
+
+            <div>
+                <button name="fire" value="false" class="btn btn-1 btn-1c">火情结束</button>
+                <!-- <button name="water" value="false" class="btn btn-1 btn-1e">水情结束</button> -->
+                <span class="input input--kuro">
+                    <input class="input__field input__field--kuro" type="text" id="animation" maxlength="2" placeholder="视屏动效">
+                    <label class="input__label input__label--kuro" for="animation">
+                        <span class="input__label-content input__label-content--kuro"></span>
+                    </label>
+                </span>
+            </div>
+
+        </div>
+
+        <div id="slider" class="slider"></div>
+        <div id="video" class="video"></div>
+
+    </div>
+</body>
+
+<script type="text/javascript">
+    $(function () {
+        const $controller = $('.controller');
+
+        const sendMessage = (name, value) => {
+            $.post('/update',
+                {
+                    name,
+                    value
+                },
+                res => {
+                    console.log(res);
+                });
+        }
+
+        const sendAnimation = (type) => {
+            $.post('/setAnimation',
+                {
+                    type
+                },
+                res => {
+                    console.log(res);
+                });
+        }
+
+        $controller.on('click', 'button', (e) => {
+            let $bt = $(e.target),
+                name = $bt.attr('name'),
+                value = $bt.attr('value');
+
+            sendMessage(name, value);
+        });
+
+        const initSlider = () => {
+            const $animation = $('#animation'),
+                $slider = $('#slider');
+
+            $animation.on('change', function (e) {
+                let value = parseInt(e.target.value),
+                    bool = value && value > 0 && value < 68;
+
+                if (!bool) {
+                    value = 32;
+                }
+
+                clearTimeout(this._timer);
+
+                this._timer = setTimeout(() => {
+                    sendAnimation(value);
+                }, 200);
+
+            });
+
+            noUiSlider.create($slider[0], {
+                start: [32],
+                step: 1,
+                orientation: "vertical",
+                connect: [true, false],
+                range: {
+                    min: 1,
+                    max: 67
+                },
+                pips: {
+                    mode: 'positions',
+                    values: [0, 47, 100],
+                    density: 5,
+                }
+            });
+
+            $slider[0].noUiSlider.on('update', function (values, handle) {
+                const nVal = parseInt(values[handle], 10) || 0,
+                    oVal = parseInt($animation.val(), 10) || 0;
+
+                if (nVal === oVal) {
+                    return;
+                }
+
+                $animation.val(parseInt(nVal, 10));
+                $animation.trigger('change');
+            });
+
+            $animation.on('change', (e) => {
+                const nVal = parseInt(e.target.value, 10) || 0,
+                    oVal = parseInt($animation.val(), 10) || 0;
+
+                if (nVal === oVal) {
+                    return;
+                }
+
+                $slider[0].noUiSlider.set(nVal);
+            });
+        }
+
+        /* const initVideo = () => {
+            const $video = $('#video');
+
+            noUiSlider.create($video[0], {
+                start: [0],
+                step: 1,
+                connect: [true, false],
+                range: {
+                    min: 1,
+                    max: 100
+                }
+            });
+
+            $video[0].noUiSlider.on('update', function (values, handle) {
+
+            });
+        } */
+
+        initSlider();
+        //initVideo();
+
+    });
+</script>
+
+</html>

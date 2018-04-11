@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Screen</title>
+    <link rel="stylesheet" type="text/css" href="public/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/animations.css" />
+    <script type="text/javascript" src="public/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="public/js/jquery.signalR.min.js"></script>
+    <style type="text/css">
+        html,
+        body,
+        div,
+        video {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .content video {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="pt-main" class="content pt-perspective">
+
+        <div id="home" class="pt-page">
+            <video src="public/video/home.mp4" autoplay="true" loop="true"></video>
+        </div>
+
+        <div id="fire" class="pt-page">
+            <video src="public/video/fire.mp4" autoplay="true" loop="true"></video>
+        </div>
+
+        <!-- <div id="water" class="pt-page">
+            <video src="public/video/water.mp4" autoplay="true" loop="true"></video>
+        </div> -->
+    </div>
+
+</body>
+<script src="public/js/pagetransitions.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        class Screen {
+            constructor() {
+                this.state = {
+                    current: {
+                        fire: false,
+                        water: false
+                    }
+                }
+
+                this.addEventListener();
+            }
+
+            addEventListener() {
+                setInterval(() => this.query(), 200);
+            }
+
+            query() {
+                $.get('/getStatus', {}, res => this.queryHandler(res));
+            }
+
+            queryHandler(data) {
+                let { fire: cFire, water: cWater } = this.state.current,
+                    { fire, water } = data;
+
+                if (fire || water) {
+                    if (fire && fire !== cFire) {
+                        this.select('fire');
+                    } else if (water && water !== cWater) {
+                        this.select('water');
+                    }
+                } else if (fire !== cFire || water !== cWater) {
+                    this.select('home');
+                }
+
+                window.type = data.animation;
+
+                this.state.current = data;
+            }
+
+            select(name) {
+                window.select(name);
+                $(`#${name} video`).get(0).currentTime = 0;
+            }
+
+        }
+
+        new Screen();
+
+    });
+
+</script>
+
+</html>

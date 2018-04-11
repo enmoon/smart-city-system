@@ -1,0 +1,6 @@
+2018-03-28 19:30:56,202 INFO 9996 [Timer] /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-03-29 00:00:00.000
+2018-03-28 19:30:56,203 INFO 9996 [Timer] /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-03-29 00:00:01.000
+2018-04-11 09:26:33,366 INFO 33202 [Timer] /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-12 00:00:00.000
+2018-04-11 09:26:33,367 INFO 33202 [Timer] /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-12 00:00:01.000
+2018-04-11 09:31:03,641 INFO 33410 [Timer] /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-12 00:00:00.000
+2018-04-11 09:31:03,641 INFO 33410 [Timer] /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-12 00:00:01.000

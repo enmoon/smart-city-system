@@ -1,0 +1,65 @@
+2018-03-28 00:00:00,775 INFO 2438 [egg-logrotator] app logger reload: got log-reload message
+2018-03-28 00:30:15,496 WARN 2438 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 19:30:55,979 INFO 9997 [egg:logger] init all loggers with options: {"dir":"/Users/moon/Documents/site/aliyun/smart-city-system/logs/SmartCitySystem","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"SmartCitySystem-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-28 19:30:56,021 INFO 9997 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js
+2018-03-28 19:30:56,021 INFO 9997 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js
+2018-03-28 19:30:56,154 INFO 9997 [egg-static] starting static serve /public/ -> /Users/moon/Documents/site/aliyun/smart-city-system/app/public
+2018-03-28 19:30:56,157 INFO 9997 [egg-security] use methodnoallow middleware
+2018-03-28 19:30:56,158 INFO 9997 [egg-security] use noopen middleware
+2018-03-28 19:30:56,158 INFO 9997 [egg-security] use nosniff middleware
+2018-03-28 19:30:56,159 INFO 9997 [egg-security] use xssProtection middleware
+2018-03-28 19:30:56,159 INFO 9997 [egg-security] use dta middleware
+2018-03-28 19:30:56,159 INFO 9997 [egg-security] compose 5 middlewares into one security middleware
+2018-03-28 19:30:56,187 INFO 9997 [egg-watcher:app] watcher start success
+2018-03-28 20:05:26,200 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 20:21:48,454 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 20:44:19,644 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 21:16:59,904 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 21:49:38,851 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 22:05:13,028 WARN 9997 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-03-28 22:05:13,028 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-03-28 22:21:12,720 WARN 9997 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-04-11 09:26:32,946 INFO 33203 [egg:logger] init all loggers with options: {"dir":"/Users/moon/Documents/site/aliyun/smart-city-system/logs/SmartCitySystem","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"SmartCitySystem-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-11 09:26:33,088 INFO 33203 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js
+2018-04-11 09:26:33,088 INFO 33203 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-11 09:26:33,284 INFO 33203 [egg-static] starting static serve /public/ -> /Users/moon/Documents/site/aliyun/smart-city-system/app/public
+2018-04-11 09:26:33,288 INFO 33203 [egg-security] use methodnoallow middleware
+2018-04-11 09:26:33,289 INFO 33203 [egg-security] use noopen middleware
+2018-04-11 09:26:33,289 INFO 33203 [egg-security] use nosniff middleware
+2018-04-11 09:26:33,290 INFO 33203 [egg-security] use xssProtection middleware
+2018-04-11 09:26:33,291 INFO 33203 [egg-security] use dta middleware
+2018-04-11 09:26:33,291 INFO 33203 [egg-security] compose 5 middlewares into one security middleware
+2018-04-11 09:26:33,345 INFO 33203 [egg-watcher:app] watcher start success
+2018-04-11 09:27:59,222 INFO 33244 [egg:logger] init all loggers with options: {"dir":"/Users/moon/Documents/site/aliyun/smart-city-system/logs/SmartCitySystem","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"SmartCitySystem-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-11 09:27:59,262 INFO 33244 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js
+2018-04-11 09:27:59,262 INFO 33244 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-11 09:27:59,364 INFO 33244 [egg-static] starting static serve /public/ -> /Users/moon/Documents/site/aliyun/smart-city-system/app/public
+2018-04-11 09:27:59,367 INFO 33244 [egg-security] use methodnoallow middleware
+2018-04-11 09:27:59,367 INFO 33244 [egg-security] use noopen middleware
+2018-04-11 09:27:59,367 INFO 33244 [egg-security] use nosniff middleware
+2018-04-11 09:27:59,368 INFO 33244 [egg-security] use xssProtection middleware
+2018-04-11 09:27:59,368 INFO 33244 [egg-security] use dta middleware
+2018-04-11 09:27:59,368 INFO 33244 [egg-security] compose 5 middlewares into one security middleware
+2018-04-11 09:27:59,391 INFO 33244 [egg-watcher:app] watcher start success
+2018-04-11 09:28:04,480 INFO 33256 [egg:logger] init all loggers with options: {"dir":"/Users/moon/Documents/site/aliyun/smart-city-system/logs/SmartCitySystem","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"SmartCitySystem-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-11 09:28:04,520 INFO 33256 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js
+2018-04-11 09:28:04,520 INFO 33256 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-11 09:28:04,631 INFO 33256 [egg-static] starting static serve /public/ -> /Users/moon/Documents/site/aliyun/smart-city-system/app/public
+2018-04-11 09:28:04,633 INFO 33256 [egg-security] use methodnoallow middleware
+2018-04-11 09:28:04,634 INFO 33256 [egg-security] use noopen middleware
+2018-04-11 09:28:04,634 INFO 33256 [egg-security] use nosniff middleware
+2018-04-11 09:28:04,634 INFO 33256 [egg-security] use xssProtection middleware
+2018-04-11 09:28:04,634 INFO 33256 [egg-security] use dta middleware
+2018-04-11 09:28:04,635 INFO 33256 [egg-security] compose 5 middlewares into one security middleware
+2018-04-11 09:28:04,661 INFO 33256 [egg-watcher:app] watcher start success
+2018-04-11 09:31:03,450 INFO 33411 [egg:logger] init all loggers with options: {"dir":"/Users/moon/Documents/site/aliyun/smart-city-system/logs/SmartCitySystem","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"SmartCitySystem-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-11 09:31:03,492 INFO 33411 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/clean_log.js
+2018-04-11 09:31:03,492 INFO 33411 [egg-schedule]: register schedule /Users/moon/Documents/site/aliyun/smart-city-system/node_modules/_egg-logrotator@3.0.2@egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-11 09:31:03,592 INFO 33411 [egg-static] starting static serve /public/ -> /Users/moon/Documents/site/aliyun/smart-city-system/app/public
+2018-04-11 09:31:03,595 INFO 33411 [egg-security] use methodnoallow middleware
+2018-04-11 09:31:03,595 INFO 33411 [egg-security] use noopen middleware
+2018-04-11 09:31:03,596 INFO 33411 [egg-security] use nosniff middleware
+2018-04-11 09:31:03,596 INFO 33411 [egg-security] use xssProtection middleware
+2018-04-11 09:31:03,596 INFO 33411 [egg-security] use dta middleware
+2018-04-11 09:31:03,596 INFO 33411 [egg-security] compose 5 middlewares into one security middleware
+2018-04-11 09:31:03,626 INFO 33411 [egg-watcher:app] watcher start success

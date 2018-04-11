@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proxy</title>
+    <script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="public/js/jquery.signalR.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            const hub = $.hubConnection('http://122.229.31.129:8088'),
+                hubProxy = hub.createHubProxy('DataHub');
+
+            hubProxy.on("reveiceRealData", data => {
+                const res = data && data[0];
+                if (res && res.TXDZM && res.TXDZM == '10000') {
+                    console.log('FireAlarm');
+                }
+            });
+
+            hub.start()
+                .done(() => {
+                    console.log('Now connected, connection ID=' + hub.id);
+                    hubProxy.invoke("alarmClientRegister", "IP信息", "消安受理中心", "33A99001");
+                })
+                .fail(function () {
+                    console.log('Could not connect');
+                });
+
+        });
+    </script>
+</head>
+
+<body></body>
+
+</html>
